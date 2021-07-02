@@ -1,0 +1,94 @@
+.buyPage{
+    color: black;
+    font-size: large;
+    padding: 20px;
+    /* background-image: url('../../assets/img/heart.png'); */
+    bottom: 0;
+    object-fit: cover;
+    background-repeat: no-repeat;
+    margin-bottom: 0px;
+}
+/* .heartImg{
+    width: 378px;
+    height: 437px;
+    left:971px;
+    top:335px;
+    right: 1349px;
+    bottom: 772px;
+    z-index: 6;
+} */
+.section{
+    display: flex;
+    flex-direction: row;
+/*     padding: 100px; */   
+    column-count: 2;
+    column-gap: 8vw;
+    color: #000 !important;
+    justify-content: space-around !important;
+    justify-content: space-between;
+}
+.pay-pal-buttons{
+    width: 10vw !important
+}
+.itemImg{
+    height: 20vw;
+    width: 40vw;
+    /* margin-left: 100; */
+    border: thin;
+    border-color: black;
+
+}
+
+.section1{
+    margin-left: 2vw;
+   /*  left: 0; */
+    right:0px;
+    float: right;
+}
+.section2{
+    float: left;
+}
+
+
+h1 {
+/*     display: inline;
+ */    font-size: 15vw;
+    text-transform: uppercase;
+    color: #000000;
+  }
+  @media (min-width: 700px) {
+    h1 {
+      font-size: 9vw;
+    }
+  }
+  @media (min-width: 1400px) {
+    h1 {
+      font-size: 150px;
+    }
+  }
+  
+  @supports (-webkit-background-clip: text) {
+    h1 {
+      color: transparent;
+      background: linear-gradient(7deg, #f59e9e 50%, #f44c4c 0);
+      --webkit-background-clip: text;
+    }
+  }
+
+
+  .h1Buy{
+      color: rgb(255, 255, 255) !important;
+  }
+
+
+  .pricee{
+    margin-top: 19vw;
+  }
+
+  .buyPageDiv{
+    background-color: white;
+    border: black;
+    border-width: bold;
+    box-shadow: 0 8px 16px 0 rgba(122, 66, 66, 0.2), 0 6px 20px 0 rgba(37, 22, 22, 0.19);
+    padding: 10px 10px;
+  }

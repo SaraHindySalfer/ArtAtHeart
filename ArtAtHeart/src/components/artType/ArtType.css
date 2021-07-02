@@ -1,0 +1,39 @@
+.divContainer{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    font-size: medium;
+    position: relative;
+    z-index: 5;
+    color: black;
+    
+}
+.body{
+    background-color: rgb(255, 255, 255);
+    justify-content: space-around;
+    height: 1500px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    display: flex;
+    flex-direction: row;
+
+}
+
+.image{
+    max-width:172px;
+    max-height: 82;
+}
+
+.body.divContainer{
+    padding: 2px 10px;
+   /*  padding-top: 10px; */
+}
+
+.artTypeTitle{
+    color: rgb(255, 255, 255);
+}
+.coverr{
+    margin-top: 100px;
+    margin-bottom: 100px;
+    align-content: center;
+}

@@ -1,0 +1,132 @@
+@import "~react-image-gallery/styles/css/image-gallery.css";
+.image-gallery-icon {
+    color: #fff;
+    transition: all .2s ease-out;
+    appearance: none;
+    background-color: transparent;
+    border: 0;
+    cursor: pointer;
+    outline: none;
+    position: absolute;
+    z-index: 4;
+    filter: drop-shadow(0 2px 2px #1a1a1a); }
+    @media (min-width: 768px) {
+      .image-gallery-icon:hover {
+        color:rgb(172, 51, 51);
+        ; }
+        .image-gallery-icon:hover .image-gallery-svg {
+          transform: scale(1.1); } }
+    .image-gallery-icon:focus {
+      outline: 2px solid rgb(172, 51, 51); }
+  
+
+  
+
+  .image-gallery-bullets {
+    bottom: 20px;
+    left: 0;
+    margin: 0 auto;
+    position: absolute;
+    right: 0;
+    width: 80%;
+    z-index: 4; }
+    .image-gallery-bullets .image-gallery-bullets-container {
+      margin: 0;
+      padding: 0;
+      text-align: center; }
+    .image-gallery-bullets .image-gallery-bullet {
+      appearance: none;
+      background-color: transparent;
+      border: 1px solid #fff;
+      border-radius: 50%;
+      box-shadow: 0 1px 0 #1a1a1a;
+      cursor: pointer;
+      display: inline-block;
+      margin: 0 5px;
+      outline: none;
+      padding: 5px;
+      transition: background .2s ease-out; }
+      @media (max-width: 768px) {
+        .image-gallery-bullets .image-gallery-bullet {
+          margin: 0 3px;
+          padding: 3px; } }
+      @media (max-width: 480px) {
+        .image-gallery-bullets .image-gallery-bullet {
+          padding: 2.7px; } }
+      .image-gallery-bullets .image-gallery-bullet:focus, .image-gallery-bullets .image-gallery-bullet:hover {
+        background:rgb(172, 51, 51);;
+        transform: scale(1.1); }
+      .image-gallery-bullets .image-gallery-bullet.active {
+        background: #fff; }
+
+
+  .image-gallery-thumbnail {
+    display: inline-block;
+    border: 4px solid transparent;
+    transition: border .3s ease-out;
+    width: 100px;
+    background: transparent;
+    padding: 0; }
+    @media (max-width: 768px) {
+      .image-gallery-thumbnail {
+        border: 3px solid transparent;
+        width: 81px; } }
+    .image-gallery-thumbnail + .image-gallery-thumbnail {
+      margin-left: 2px; }
+    .image-gallery-thumbnail .image-gallery-thumbnail-inner {
+      position: relative; }
+    .image-gallery-thumbnail .image-gallery-thumbnail-image {
+      vertical-align: middle;
+      width: 100%;
+      line-height: 0; }
+    .image-gallery-thumbnail.active, .image-gallery-thumbnail:hover, .image-gallery-thumbnail:focus {
+      outline: none;
+      border: 4px solid rgb(172, 51, 51); }
+      @media (max-width: 768px) {
+        .image-gallery-thumbnail.active, .image-gallery-thumbnail:hover, .image-gallery-thumbnail:focus {
+          border: 3px solid rgb(172, 51, 51); } }
+
+  
+.image-gallery-index {
+    background: rgba(0, 0, 0, 0.4);
+    color: #fff;
+    line-height: 1;
+    padding: 10px 20px;
+    position: absolute;
+    right: 0;
+    top: 0;
+    z-index: 4; }
+    @media (max-width: 768px) {
+.image-gallery-index {
+        font-size: .8em;
+        padding: 5px 10px; } }
+  
+.image-gallery {
+          width: 28%;
+          height: auto;
+      }
+      
+.image-gallery-slide img {
+          width: 100%;
+          height: auto;
+          max-height: 80vh;
+          object-fit: cover;
+          overflow: hidden;
+          object-position: center center;
+      }
+      
+      .fullscreen .image-gallery-slide img {
+          max-height: 100%;
+      }
+
+.content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    background: none;
+}
+
+.images{
+    width: 100%;
+}

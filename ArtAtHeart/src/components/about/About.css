@@ -1,0 +1,20 @@
+.aboutText{
+    color:black;
+    text-indent: 50px;
+  text-align: justify;
+  letter-spacing: 1px;
+  column-count: 1;
+  column-gap: 60px;
+  column-rule-style: outset;
+  padding-right: 25vw;
+  padding-top: 10vw;
+  padding-left: 25vw;
+}
+
+.AboutTitle{
+    color: black;
+    text-align: center;
+    padding-top: 9vw;
+
+}
+

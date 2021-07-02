@@ -1,0 +1,13 @@
+.paypal-button-container{
+    width: 100px !important;
+}
+
+.paypal-buttons{
+    width: 20% !important;
+} 
+/* .paypal-button-layout-horizontal 
+.paypal-button-shape-pill 
+.paypal-button-branding-branded 
+.paypal-button-number-single 
+.paypal-button-env-sandbox 
+.paypal-should-focus */

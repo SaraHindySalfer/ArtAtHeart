@@ -1,0 +1,65 @@
+.container {
+    background-image: url('../../assets/img/back2.jpg');
+    width: 200%;
+    height: 500px;
+    min-height: 500px;
+    object-fit: cover;
+    background-attachment: fixed;
+    background-position: center;
+/*     background-repeat: no-repeat;
+ */    background-size: 100%;
+    margin-top: 0px;
+    top: 0px;
+    position:inherit;
+    margin:0px;
+    z-index: 8;
+}
+
+.homePage {
+    height: 1000px;
+    font-size: 70px;
+    width: 100%;
+    justify-content: center;
+    margin-top: 5vw;
+}
+
+.homeTitle{
+        font-size: larger;
+        color: black;
+}
+.secondTitle{
+    color: rgb(0, 0, 0);
+    font-size :30px;
+}
+.gotoSell{
+    justify-content: center;
+    max-width:10vw;
+    font-weight: bolder;
+    background-color:rgb(231, 98, 98);
+    border:none;
+    color:white;
+    padding: 11px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    flex-wrap: nowrap;
+    font-size: 16px;
+    border-radius: 16px;
+    box-shadow: 0 8px 16px 0 rgba(122, 66, 66, 0.2), 0 6px 20px 0 rgba(37, 22, 22, 0.19);
+}
+.gotoSell:hover{
+    box-shadow:2px 2px 40px 8px rgba(94, 25, 25, 0.486); 
+}
+.gotoSell:active{
+    background-color:rgb(124, 25, 25);
+    transform: translateY(4px);
+    box-shadow:2px 2px 30px 8px rgba(94, 25, 25, 0.486); 
+}
+
+.homePageButtons{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 3vw;
+    justify-content: space-evenly;
+}

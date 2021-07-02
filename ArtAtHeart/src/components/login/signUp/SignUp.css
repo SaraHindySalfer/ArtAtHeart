@@ -1,0 +1,109 @@
+.comtainer{
+/*     color: black;
+ */    align-items: center;
+     position: absolute;
+     left:50%;
+     top: 50%;
+     transform:translate(-50%,-50%) ;
+    align-content: center; 
+    background-color: #ebecf0;
+    font-family: 'Montserrat', sans-serif;
+	 letter-spacing: -0.2px;
+	 font-size: 16px;
+   width: 100%;
+   height: 200%;
+   display: flex;
+   flex-direction: column;
+   justify-content:center ;
+}
+
+ .form{
+  padding: 30px;
+	 width: 320px;
+	 margin: 0 auto;
+    justify-content: center;
+    align-content: center;
+    margin: auto;
+    margin-left: 35%;
+    padding: 20px;
+    color: #babecc;
+	 text-shadow: 1px 1px 1px #fff;
+    
+}
+.submited{
+    margin-top: 20%;
+    text-align: center;
+}
+ .btn-primary{
+    position: relative;
+    margin-right: 50%;
+    background-color: white !important;
+    color: black !important;
+    border: 2px solid #a1a1a1 !important;
+    display: inline;
+}
+.btn-primary-left{
+  position: relative;
+  margin-left: 50%;
+  background-color: white !important;
+  color: black !important;
+  border: 2px solid #a1a1a1 !important;
+  display: inline;
+}
+.btn-primary:hover ,.btn-primary-left:hover{
+    background-color: #a1a1a1 !important;
+
+} 
+.segment {
+  padding: 32px 0;
+  text-align: center;
+}
+.btn-primary, .nameInput,.emailInput,.passwordInput,.btn-primary-left {
+  border: 0;
+  outline: 0;
+  font-size: 16px;
+  border-radius: 320px;
+  padding: 16px;
+  background-color: #ebecf0 !important;
+  text-shadow: 1px 1px 0 #fff !important;
+}
+.nameInput,.emailInput,.passwordInput{
+    margin-right: 8px;
+    box-shadow: inset 2px 2px 5px #babecc, inset -5px -5px 10px #fff;
+    width: 100%;
+    box-sizing: border-box;
+    transition: all 0.2s ease-in-out;
+    appearance: none;
+    -webkit-appearance: none;
+}
+.nameInput,.emailInput,.passwordInput:focus{
+  box-shadow: inset 1px 1px 2px #babecc, inset -1px -1px 2px #fff;
+}
+
+.btn-primary,.btn-primary-left{
+  color: #8f9199;
+	 font-weight: bold;
+	 box-shadow: -5px -5px 20px #fff, 5px 5px 20px #babecc;
+	 transition: all 0.2s ease-in-out;
+	 cursor: pointer;
+	 font-weight: 600;
+/*    display: inline-block;
+ */}
+
+.btn-primary:hover ,.btn-primary-left:hover{
+  box-shadow: -2px -2px 5px #fff, 2px 2px 5px #babecc;
+}
+
+.btn-primary:focus,.btn-primary-left:focus{
+  box-shadow: inset 1px 1px 2px #babecc, inset -1px -1px 2px #fff;
+}
+.buttons{
+  display: flex !important;
+  justify-content: space-between;
+  flex-direction: row !important;
+  align-items: flex-end;
+}
+
+.title{
+  font-size: x-large;
+}

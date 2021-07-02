@@ -1,0 +1,32 @@
+
+
+.form-text{
+    color: rgb(219, 23, 23);
+    display: inline !important
+}
+
+.form-label{
+    color: black;
+}
+
+
+.form-control{
+
+    display: none;
+    background-color: #a1a1a1;
+}
+
+.inputSignUp{
+    background-color: transparent;
+    border: none;
+    outline: none;
+    color:black;
+}
+
+.inputSignUp :focus{
+    outline: none;
+}
+
+.inputSignUp:active{
+    outline: none;
+}

@@ -1,0 +1,114 @@
+.sellApp{
+    align-items: center;
+     position: absolute;
+     left:50%;
+     top: 50%;
+     transform:translate(-50%,-50%) ;
+    align-content: center; 
+    background-color: #ebecf0;
+    font-family: 'Montserrat', sans-serif;
+	 letter-spacing: -0.2px;
+	 font-size: 16px;
+   width: 100%;
+   height: 200%;
+   display: flex;
+   flex-direction: column;
+   justify-content:center ;
+}
+
+.labels{
+    color: black !important;
+}
+.nameError{
+    color: rgb(0, 0, 0);
+}
+
+.sellApp{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.upload__image-wrapper{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+.file-input-button{
+    display: none !important;
+    background-color: transparent;
+    border: none;
+}
+
+.choose-img {
+    height: 50px;
+    width: 80px;
+    margin: 4px;
+}
+
+.sellInput{
+    color: black !important;
+    margin-right: 8px;
+    box-shadow: inset 2px 2px 5px #babecc, inset -5px -5px 10px #fff;
+    width: 100%;
+    box-sizing: border-box;
+    transition: all 0.2s ease-in-out;
+    appearance: none;
+    -webkit-appearance: none;
+
+}
+.form{
+    padding: 30px;
+	 width: 320px;
+	 margin: 0 auto;
+    justify-content: center;
+    align-content: center;
+    margin: auto;
+    margin-left: 35%;
+    padding: 20px;
+    color: #babecc;
+	 text-shadow: 1px 1px 1px #fff;
+}
+
+.sellInput,.btn-primary{
+    border: 0;
+  outline: 0;
+  font-size: 16px;
+  border-radius: 320px;
+  padding: 16px;
+  background-color: #ebecf0 !important;
+  text-shadow: 1px 1px 0 #fff !important;
+}
+
+.sellInput:focus{
+    box-shadow: inset 1px 1px 2px #babecc, inset -1px -1px 2px #fff;
+}
+
+.sellModal{
+     background-image: url('../../../assets/img/modalImage.jpg');
+    object-fit: cover; 
+    
+    overflow: hidden;
+    background-size: cover;
+    position: center;/*
+    display: flex;
+    flex-direction: column;
+    justify-self:center;
+    align-self: center;
+    padding-top: 12vw;
+    justify-content: center; */
+    position: absolute;
+    top:40%;
+    left: 40%;
+    margin-top: -50px;
+    margin-left: -50px;
+    z-index: 1000;
+}
+
+.modalContent{
+    text-align: center;
+    font-size: 30px;
+    opacity: 100% !important;
+    
+}

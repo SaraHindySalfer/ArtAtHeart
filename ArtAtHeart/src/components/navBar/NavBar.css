@@ -1,0 +1,239 @@
+.topnav {
+    margin: 0;
+    padding: 0;
+    background-color: white;
+    position: fixed;
+    list-style-type: none;
+    top: 0;
+    border: none;
+    width: 100%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    font-family: 'EB Garamond', serif;
+    font-size :35px;
+    z-index: 100;
+    cursor: pointer;
+
+}
+.logo{
+    float: left;
+    margin-top: -15px;
+    width: auto;
+    height: auto;
+    max-width: 250px;
+    max-height: 72px;
+}
+.topnav .rightSide{
+    float: right;
+}
+.topnav.link{
+    float: left;
+}
+
+.link:hover{
+    background-color:  rgb(0, 0, 0);
+    color: white;
+}
+
+.topnav .link{
+    position:relative;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    float: left;
+    cursor: pointer;
+    
+}
+
+.topnav .link:hover ,.dropdown :hover .artworks{
+    background-color:  rgb(0, 0, 0);
+    color: white;
+}
+
+  
+.topnav .search-container {
+    float: right;
+}
+.topnav .search-container:focus {
+    border:none;
+}  
+.topnav .input[type=text] {
+    padding: 6px;
+    margin-top: 8px;
+    font-size: 17px;
+    width: 350px;
+    border-width: thin;
+    border-color: black;
+    font-family: 'EB Garamond', serif;
+}
+.topnav.input:focus{
+    border:none;
+}  
+.topnav .search-container .searchButton{
+    padding: 6px;
+    margin-top: 8px;
+    margin-right: 17px;
+    background: rgb(0, 0, 0);
+    color: white;
+    font-size: 17px;
+    text-decoration-color: white;
+    border-width: thin;
+    border-color: black;
+    border: 1;
+    cursor: pointer;
+    font-family: 'EB Garamond', serif;
+}
+  
+.topnav .search-container .searchButton:hover {
+    background: white;
+    color: black;
+}
+  
+@media screen and (max-width: 600px) {
+    .topnav .search-container {
+      float: none;
+    }
+    .topnav .link, .topnav .input[type=text], .topnav .search-container .searchButton{
+      float: none;
+      display: block;
+      text-align: left;
+      width: 100%;
+      margin: 0;
+      padding: 14px;
+    }
+    .topnav .input[type=text] {
+      border: 1px solid #ccc;  
+    }
+}
+
+
+
+li a .artworks {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li.dropDown {
+    position: relative;
+    display: inline-block;
+}
+  
+.artTypes {
+    display: none;
+    position:absolute;
+    background-color:white;
+    min-width: 135px;
+    box-shadow: 0px 8px 106px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+  
+.artTypes a {
+    color: black;
+    padding: 12px 10px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+  
+.artTypes a:hover {
+    background-color: #000000;}
+  
+.dropDown:hover .artTypes {
+    display:inline-block;
+    
+   
+}
+
+li a .artists {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.allArtists {
+    display: none;
+    position:absolute;
+    background-color: white;
+    min-width: 135px;
+    box-shadow: 0px 8px 106px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+  
+.allArtists a {
+    color: black;
+    padding: 12px 10px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+  
+.allArtists a:hover {background-color:white;}
+  
+.dropDown:hover .allArtists {
+    display:inline-block;
+    
+   
+}
+.logo-image{
+    width: 50px;
+    height: 24px;
+    margin-top:60px;
+    position:absolute;
+}
+.img-fluid{
+    width: 200%;
+    height: 200%;
+    margin-top:1px;
+    
+}
+.overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: #ffffff;
+  }
+  
+.logo-image:hover .overlay {
+    opacity: 1;
+}
+  
+.text {
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+}
+
+.user{
+    color:black;
+}
+
+.OtherLink{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    float: left;
+    cursor: pointer;
+}
+.OtherLink:hover{
+    background-color: white;
+    color: black;
+}
